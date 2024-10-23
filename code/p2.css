@@ -1,0 +1,60 @@
+body {
+    font-family: 'PT Serif', serif;
+    background-color: #f9f3c1; /* Light yellow background */
+    margin: 0;
+    padding: 20px;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.photo img {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+h3 {
+    color: #161512; /* Darker color for headings */
+    margin-top: 20px;
+}
+
+.Introduction, .About {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #d1c8b0;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    line-height: 1.6;
+    color: #333;
+}
+ 
